@@ -479,8 +479,10 @@ public class PrettyPrintCopybook {
 	}
 	public static void main(String[] args) throws IOException, XMLStreamException, ParserException, LexerException  {
 		if (args == null || args.length == 0) {
-			//System.err.println("You must supply atleast the Cobol copybook name");
-			new PrettyPrintCopybook(Code.getFullName("BitOfEverything.cbl").getFile());
+			System.err.println("You must supply atleast the Cobol copybook name");
+			//new PrettyPrintCopybook(Code.getFullName("BitOfEverything.cbl").getFile());
+
+
 		} else if (args.length == 1) {
 			new PrettyPrintCopybook(args[0]);
 		} else {

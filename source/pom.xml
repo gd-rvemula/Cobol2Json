@@ -8,7 +8,13 @@
 
     <properties>
         <cb2xml_srcdir>cb2xml</cb2xml_srcdir>
+        <maven.compiler.source>6</maven.compiler.source>
+        <maven.compiler.target>6</maven.compiler.target>
     </properties>
+    <modules>
+        <module>cb2xml</module>
+        <module>cb2xml_examples</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -27,10 +33,13 @@
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>2.3.3</version>
+        </dependency>
     </dependencies>
 
-    <modules>
-        <module>${cb2xml_srcdir}</module>
-    </modules>
+
 
 </project>

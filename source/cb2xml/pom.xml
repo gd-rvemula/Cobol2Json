@@ -8,6 +8,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent> 
     <artifactId>cb2xml_src</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <cb2xml_tests>../cb2xml_tests/src</cb2xml_tests>
