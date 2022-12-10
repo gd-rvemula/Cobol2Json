@@ -1,3 +1,16 @@
+## cobol2json - COBOL to JSON
+ * This is a derivative work from https://github.com/bmTas/cb2xml
+ * Features added to the original library
+    * Added feature to create JSON layout of copybook 
+    * Folder structure changes to work better with Maven
+    * Fixed dependencies to compile with JDK higher than 8. 
+    * TODO 
+        * Convert all modules to Maven modules
+        * Restructure test folders
+        * Add code quality tools
+        * Add ability to create COBOL files
+
+
 ## cb2xml - Cobol to Xml
 
 The cb2xml package reads a Cobol-Copybook and converts it to either
