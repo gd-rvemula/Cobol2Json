@@ -47,9 +47,9 @@
                         <phase>compile</phase>
                         <configuration>
                             <tasks>
-                                <copy file="src/net/sf/cb2xml/sablecc/lexer/lexer.dat"
+                                <copy file="src/main/java/net/sf/cb2xml/sablecc/lexer/lexer.dat"
                                     tofile="target/classes/net/sf/cb2xml/sablecc/lexer/lexer.dat" />
-                                <copy file="src/net/sf/cb2xml/sablecc/parser/parser.dat"
+                                <copy file="src/main/java/net/sf/cb2xml/sablecc/parser/parser.dat"
                                     tofile="target/classes/net/sf/cb2xml/sablecc/parser/parser.dat" />
                                 <copy file="${cb2xml_tests}/cb2xml.properties" tofile="./cb2xml.properties" /> -->
                             </tasks>
